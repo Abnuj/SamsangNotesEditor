@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/deleteTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_ripple_effect"
+        android:clickable="true"
+        android:drawableStart="@drawable/delet_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/bottom_text_color"
+        android:focusable="true"
+        android:text="Delete"
+        android:textColor="@color/bottom_text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/makeACopyTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gray_ripple_effect"
+        android:clickable="true"
+        android:drawableStart="@drawable/copy_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/bottom_text_color"
+        android:focusable="true"
+        android:text="Make a copy"
+        android:textColor="@color/bottom_text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteTv" />
+
+
+    <TextView
+        android:id="@+id/sendTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gray_ripple_effect"
+        android:clickable="true"
+        android:drawableStart="@drawable/share_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/bottom_text_color"
+        android:focusable="true"
+        android:text="Send"
+        android:textColor="@color/bottom_text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/makeACopyTv" />
+
+
+    <TextView
+        android:id="@+id/collaboratorTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gray_ripple_effect"
+        android:clickable="true"
+        android:drawableStart="@drawable/add_customer_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/bottom_text_color"
+        android:focusable="true"
+        android:text="Collaborator"
+        android:textColor="@color/bottom_text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendTv" />
+
+
+    <TextView
+        android:id="@+id/labelTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/gray_ripple_effect"
+        android:clickable="true"
+        android:drawableStart="@drawable/label_icon"
+        android:drawablePadding="15dp"
+        android:drawableTint="@color/bottom_text_color"
+        android:focusable="true"
+        android:text="Labels"
+        android:textColor="@color/bottom_text_color"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/collaboratorTv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

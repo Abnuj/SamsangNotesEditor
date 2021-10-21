@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/checkboxId"
+        android:icon="@drawable/check_box_icon"
+        android:title="Add CheckBox"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/homeBottomDrawId"
+        android:icon="@drawable/brush_icon"
+        android:title="Draw"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/homeBottomMicrophoneID"
+        android:icon="@drawable/microphone_icon"
+        android:title="Voice Note"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/homeBottomImageId"
+        android:icon="@drawable/image_icon"
+        android:title="Add Image"
+        app:showAsAction="always" />
+
+</menu>
